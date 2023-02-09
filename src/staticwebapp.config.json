@@ -1,21 +1,26 @@
 {
-    "routes": [
-        {
-            "route": "/*",
-            "allowedRoles": [
-                "authenticated"
-            ]
-        },
-        {
-            "route": "/.auth/login/aad/callback",
-            "redirect": "/"
-        }
-
-    ],
-    "responseOverrides": {
-        "401": {
-            "statusCode": 302,
-            "redirect": "/.auth/login/aad"
-        }
+  "routes": [
+    {
+      "route": "/login",
+      "redirect": "/.auth/login/aad"
+    },
+    {
+      "route": "/logout",
+      "redirect": "/.auth/logout"
+    },
+    {
+      "route": "/.auth/login/aad/callback",
+      "redirect": "/"
+    },
+    {
+      "route": "/*",
+      "allowedRoles": ["authenticated"]
     }
+  ],
+  "responseOverrides": {
+    "401": {
+      "redirect": "/login",
+      "statusCode": 302
+    }
+  }
 }
