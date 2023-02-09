@@ -6,7 +6,7 @@
     },
     {
       "route": "/logout",
-      "redirect": "/.auth/logout"
+      "redirect": "/.auth/logout?post_logout_redirect_uri=https://www.google.co.jp/"
     },
     {
       "route": "/.auth/login/aad/callback",
