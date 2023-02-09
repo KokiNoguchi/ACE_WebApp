@@ -13,12 +13,16 @@
       "redirect": "/"
     },
     {
-      "route": "/*",
+      "route": "/index.html",
       "allowedRoles": ["administrator"]
     },
     {
-      "route": "/login.html",
-      "allowedRoles": ["anonymous"]
+      "route": "/hosts_jotform.html",
+      "allowedRoles": ["administrator"]
+    },
+    {
+      "route": "/acl_jotform.html",
+      "allowedRoles": ["administrator"]
     }
   ],
   "responseOverrides": {
