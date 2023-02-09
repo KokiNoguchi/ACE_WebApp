@@ -30,5 +30,10 @@
       "redirect": "/login.html",
       "statusCode": 302
     }
+  },
+  "networking": {
+    "allowedIpRanges": [
+      "167.220.235.164"
+    ]
   }
 }
