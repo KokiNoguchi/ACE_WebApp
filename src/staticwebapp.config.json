@@ -15,6 +15,10 @@
     {
       "route": "/*",
       "allowedRoles": ["administrator"]
+    },
+    {
+      "route": "/login.html",
+      "allowedRoles": ["anonymous"]
     }
   ],
   "responseOverrides": {
