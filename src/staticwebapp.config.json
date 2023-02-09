@@ -1,0 +1,21 @@
+{
+    "routes": [
+        {
+            "route": "/*",
+            "allowedRoles": [
+                "authenticated"
+            ]
+        },
+        {
+            "route": "/.auth/login/aad/callback",
+            "redirect": "/"
+        }
+
+    ],
+    "responseOverrides": {
+        "401": {
+            "statusCode": 302,
+            "redirect": "/.auth/login/aad"
+        }
+    }
+}
