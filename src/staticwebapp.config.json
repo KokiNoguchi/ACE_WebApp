@@ -29,6 +29,10 @@
     "401": {
       "redirect": "/login.html",
       "statusCode": 302
+    },
+    "403": {
+      "redirect": "/unauthorize.html",
+      "statusCode": 302
     }
   },
   "networking": {
