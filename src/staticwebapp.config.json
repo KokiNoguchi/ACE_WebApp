@@ -25,6 +25,10 @@
       "allowedRoles": ["administrator"]
     },
     {
+      "route": "/alert_jotform.html",
+      "allowedRoles": ["administrator"]
+    },
+    {
       "route": "/templateHome.html",
       "allowedRoles": ["authenticated"]
     },
