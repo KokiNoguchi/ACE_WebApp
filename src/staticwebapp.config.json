@@ -13,7 +13,7 @@
       "redirect": "/"
     },
     {
-      "route": "/index.html",
+      "route": "/*",
       "allowedRoles": ["authenticated"]
     },
     {
@@ -27,26 +27,6 @@
     {
       "route": "/alert_jotform.html",
       "allowedRoles": ["administrator"]
-    },
-    {
-      "route": "/templateHome.html",
-      "allowedRoles": ["authenticated"]
-    },
-    {
-      "route": "/LogicAppsTemplate.html",
-      "allowedRoles": ["authenticated"]
-    },
-    {
-      "route": "/vmTemplate.html",
-      "allowedRoles": ["authenticated"]
-    },
-    {
-      "route": "/LogicAppsCreate.html",
-      "allowedRoles": ["authenticated"]
-    },
-    {
-      "route": "/LogicAppsCustom.html",
-      "allowedRoles": ["authenticated"]
     }
   ],
   "responseOverrides": {
