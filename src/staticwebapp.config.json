@@ -14,7 +14,7 @@
     },
     {
       "route": "/index.html",
-      "allowedRoles": ["administrator"]
+      "allowedRoles": ["authenticated"]
     },
     {
       "route": "/hosts_jotform.html",
@@ -23,6 +23,26 @@
     {
       "route": "/acl_jotform.html",
       "allowedRoles": ["administrator"]
+    },
+    {
+      "route": "/templateHome.html",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/LogicAppsTemplate.html",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/vmTemplate.html",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/LogicAppsCreate.html",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/LogicAppsCustom.html",
+      "allowedRoles": ["authenticated"]
     }
   ],
   "responseOverrides": {
